@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Commuter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/407071702_1043051697006717_6636274323550333595_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pkKew6661SgQ7kNvgFxu7wd&_nc_ht=scontent.fccu3-1.fna&oh=00_AYB5U2uVywrv-4YhO0C_q1yxIJmEa6UV2-DzXbwmXQ9bEQ&oe=665E224D') no-repeat center center fixed; 
+            background-size: cover;
+            color: #fff;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #00ff00; /* Kawasaki Green */
+        }
+        section {
+            padding: 2em;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 1em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .bio, .social-media, .gallery {
+            margin: 1em 0;
+        }
+        .social-media a {
+            color: #00ff00; /* Kawasaki Green */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: calc(25% - 20px); /* Smaller size */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        }
+        @media (max-width: 768px) {
+            .gallery img {
+                width: calc(33.333% - 20px); /* Adjust for medium screens */
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery img {
+                width: calc(50% - 20px); /* Adjust for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfect Commuter</h1>
+    </header>
+    <section class="bio">
+        <h2>About Me</h2>
+        <p>Welcome to my page! I am a bike lover who finds joy and freedom in riding. Whether it's a quick ride around the city or a long journey through scenic routes, biking is my passion. This webpage is dedicated to sharing my love for life and everything bike-related. Join me on my adventures!</p>
+    </section>
+    <section class="gallery">
+        <h2>My Bikes</h2>
+        <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/428606430_1086759609302592_4339707871941939064_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LobPcTjq-T8Q7kNvgGppTOG&_nc_ht=scontent.fccu3-1.fna&oh=00_AYBzk6xB0By5tsEUDgaW56vyiBAieocUlMV9u4MHD03x-A&oe=665E3021" alt="Kawasaki Ninja 300">
+        <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/431771013_1098160201495866_2749577183991425768_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tZejwzJolk8Q7kNvgEDEH-o&_nc_ht=scontent.fccu3-1.fna&oh=00_AYCICkNryT63V5ZObj_9Y9SI6J4mKz4g-2HmZ6VU2FCDzw&oe=665E3930" alt="Kawasaki Ninja 300">
+        <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/429543729_1090117625633457_685017874010571414_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UCzGzHwKSRoQ7kNvgFFypDc&_nc_ht=scontent.fccu3-1.fna&oh=00_AYBIkjS8GRDAd4ABtmz4ORwtHTOP8TB5wQHRBYFBf3UHgw&oe=665E2E52" alt="Kawasaki Ninja 300">
+    </section>
+    <section class="social-media">
+        <h2>Connect with Me</h2>
+        <p>Follow my biking adventures on Instagram:</p>
+        <p><a href="https://instagram.com/perfect_commuter" target="_blank">@perfect_commuter</a></p>
+    </section>
+</body>
+</html>
